@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Calculator</title>
+    <link rel="stylesheet" href="Calculator.css">
+  </head>
+  <body>
+<div class="container">
+<div class="calculator">
+<form>
+    <div class="display">
+        <input type="text" name="display">
+    </div>
+    <div>
+        <input type="button" value="AC" onclick="display.value = ''" class="operator"> <!--All Clear: Helps it erase everything-->
+        <input type="button" value="DE" onclick="display.value = display.value.toString().slice 
+        (0, -1)" class="operator">                                                      <!-- Click on Delete: Helps it delete one number at a time-->
+        <input type="button" value="."onclick="display.value += '.'" class="operator">  <!-- Click on Dot/decimal point and it will appear-->
+        <input type="button" value="/"onclick="display.value += '/'" class="operator">  <!-- Click on Slash or division and it will appear-->
+    </div>
+    <div>
+        <input type="button" value="7" onclick="display.value += '7'"> <!--click on 7 and it will appear-->
+        <input type="button" value="8" onclick="display.value += '8'"> <!--click on 8 and it will appear-->
+        <input type="button" value="9" onclick="display.value += '9'">  <!--click on 9 and it will appear-->
+        <input type="button" value="*" onclick="display.value += '*'" class="operator">  <!--click on * and it will appear-->
+    </div>
+    <div>
+        <input type="button" value="4" onclick="display.value += '4'"> <!--click on 4 and it will appear-->
+        <input type="button" value="5" onclick="display.value += '5'"> <!--click on 5 and it will appear-->
+        <input type="button" value="6" onclick="display.value += '6'"><!--click on 6 and it will appear-->
+        <input type="button" value="-"onclick="display.value += '-'"class="operator"><!--click on - and it will appear-->
+    </div>
+    <div>
+        <input type="button" value="1" onclick="display.value += '1'"> <!--click on 1 and it will appear-->
+        <input type="button" value="2"onclick="display.value += '2'">  <!--click on 2 and it will appear-->
+        <input type="button" value="3" onclick="display.value += '3'">  <!--click on 3 and it will appear-->
+        <input type="button" value="+" onclick="display.value += '+'" class="operator"> <!--click on + and it will appear-->
+    </div>
+    <div>
+        <input type="button" value="00" onclick="display.value += '00'"> <!--click on 00 and it will appear-->
+        <input type="button" value="0" onclick="display.value += '0'"> <!--click on 0 and it will appear-->
+        <input type="button" value="=" onclick="display.value = eval(display.value)" class="equal operator" > <!-- Click on Equal: This helps it calculate the numbers-->
+    </div>
+</form>
+</div>
+
+
+
+
+  </body>
+</html>

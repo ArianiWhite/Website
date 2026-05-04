@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Danielle's Portfolio</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet"/>
+        <link rel="stylesheet" href="Personal Portfolio.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        </head>
+    <body>
+        <header>
+        <nav id="nav-bar">
+            <ul class="nav-links">
+                <li><a href="#welcome-section" class="nav-link">Welcome</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="welcome-section">
+        <div class="intro-container">
+            <div class="intro-image">
+                <img src="./Profile-Placeholder.png" alt="Profile Image">
+            </div>
+
+            <div class="intro-text">
+                <h1>Hello, I'm Danielle.</h1>
+        <p>
+        I'm a web developer focused on building clean, responsive,
+        and user-friendly websites using HTML, CSS, and JavaScript.
+        </p>
+    </div>
+</div>
+</section>
+        
+<section id="projects">
+  <h1>Projects</h1>
+
+  <div class="bento-grid">
+
+    <!-- Left column: two stacked small cards -->
+    <div class="bento-left">
+
+      <a href="./Calculator/Calculator.html" class="project-card bento-small">
+          <img src="./Calculator/Calculator Project.png" alt="Calculator">
+          <div class="card-text">
+          <h2>Calculator</h2>
+          <p>A functional calculator built with JavaScript logic and clean UI.</p>
+        </div>
+      </a>
+
+      <a href="./Search Engine Animation/Animated Search Engine Bar.html" class="project-card bento-small">
+          <img src="./Search Engine Animation/AnimatedSearchBar.png" alt="Search Bar">
+          <div class="card-text">
+          <h2>Animated Search Bar</h2>
+          <p>An interactive animated search component using CSS and JavaScript.</p>
+        </div>
+      </a>
+
+    </div>
+
+    <!-- Right column: one large featured card -->
+      <a href="./Weather Dashboard/weather-app/dist/index.html" class="project-card bento-large">
+        <img src="./Weather Dashboard/weather-app/WeatherApp.png" alt="Weather App">
+        <div class="card-text">
+        <h2>Weather App</h2>
+        <p>A live weather dashboard that fetches real-time data by city using a public API, with animated condition icons and clean responsive design.</p>
+      </div>
+    </a>
+
+  </div>
+</section>
+        <footer>Created by Danielle White Sep 2025 </footer>
+    </body>
+</html>

@@ -1,0 +1,64 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="Animated Search Engine Bar.css">
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">    
+</head>
+
+<!-- HTML -->
+<div class="search-box">
+    <input class="search-txt" type="text" name="" placeholder="Type to search">
+    <a class="search-btn" href="#">
+        <i class="fas fa-search" style="font-size: 30px;"></i> 
+    </a>
+</div>
+
+<!-- CSS -->
+<style>
+.search-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #cdb5e0; /* Change the color to lavender */
+    height: 100px;
+    border-radius: 100px;
+    padding: 10px;
+}
+
+.search-box:hover > .search-txt{
+    width: 400px;
+    padding: 0 6px;
+}
+
+.search-box:hover > .search-btn{
+    background: #7D5BA6
+}
+
+.search-btn{
+    color: #392354;
+    float: right;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #cdb5e0; /* Change the color to lavender */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: black;
+    font-size: 40px;
+    transition: 0.4s;
+    line-height: 90px;
+    width: 0px;
+}
+</style>
+
+

@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+ height: 100vh;   
+ display: flexbox;
+ justify-content: center;
+ align-items: center;
+background:#FFC0CB;
+}
+
+.search-box{
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); /* Add some shadow for a 3D effect */
+}
